@@ -6,18 +6,26 @@ Project management system to keep track of tasks and subtasks. For this, I imple
 You can:
 
 <b>Create tasks</b><br/>
-```Task *task1 = new Task();```
-```Task *task2 = new Task();```
+```
+Task *task1 = new Task();
+Task *task2 = new Task();
+```
 
 <b>Add prerequesits to your tasks</b><br/>
-```task->addPrereq(task2);```
+```
+task->addPrereq(task2);
+```
 
 <b>Create MinorProject</b><br/>
-```MinorProject *mp1 = new MinorProject();```
-```MinorProject *mp2 = new MinorProject();```
+```
+MinorProject *mp1 = new MinorProject();
+MinorProject *mp2 = new MinorProject();
+```
 
 <b>Create CompositeProjects</b><br/>
-```CompositeProject *cp = new CompositeProject();```
+```
+CompositeProject *cp = new CompositeProject();
+```
 
 <b>Add projects to CompositeProjects</b><br/>
 ```
